@@ -4,7 +4,7 @@
   "description": "Sigh test",
   "main": "index.js",
   "scripts": {
-    "test": "sigh && ! node index"
+    "test": "rm -rf dist && sigh && ! node index"
   },
   "author": "",
   "license": "ISC",
