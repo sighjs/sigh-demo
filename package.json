@@ -1,0 +1,14 @@
+{
+  "name": "sigh-tst",
+  "version": "1.0.0",
+  "description": "Sigh test",
+  "main": "index.js",
+  "scripts": {
+    "test": "sigh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sigh-traceur": "0.0.1"
+  }
+}
