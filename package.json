@@ -4,11 +4,14 @@
   "description": "Sigh test",
   "main": "index.js",
   "scripts": {
-    "test": "sigh"
+    "test": "sigh && ! node index"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "sigh-traceur": "0.0.1"
+  },
+  "dependencies": {
+    "source-map-support": "^0.2.8"
   }
 }
