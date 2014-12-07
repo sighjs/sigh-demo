@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sigh-traceur": "0.0.1"
+    "sigh-traceur": "^0.1.0"
   },
   "dependencies": {
     "source-map-support": "^0.2.8"
