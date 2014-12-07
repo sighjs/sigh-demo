@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "sigh-cli": "0.0.1",
-    "sigh-traceur": "^0.2.0",
-    "sigh": "^0.2.1",
+    "sigh": "^0.2.2",
     "source-map-support": "^0.2.8"
   }
 }
