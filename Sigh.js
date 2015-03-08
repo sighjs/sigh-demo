@@ -1,12 +1,12 @@
-var all, glob, concat, write, traceur
+var all, env, glob, concat, write, babel
 
 module.exports = function(pipelines) {
   pipelines['js:all'] = [
     all(
-      [ glob('src/*.js'), traceur({ modules: 'commonjs' }) ],
+      [ glob({ basePath: 'src' }, '*.js'), babel({ modules: 'common' }) ],
       glob('bootstrap.js')
     ),
-    concat('combined.js'),
+    env(concat('combined.js'), 'production'),
     write('dist/assets')
   ]
 }
