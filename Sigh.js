@@ -1,8 +1,8 @@
-var all, babel, concat, debounce, env, glob, write
+var merge, babel, concat, debounce, env, glob, write
 
 module.exports = function(pipelines) {
   pipelines['js:all'] = [
-    all(
+    merge(
       [ glob({ basePath: 'src' }, '*.js'), babel({ modules: 'common' }) ],
       glob('bootstrap.js')
     ),
