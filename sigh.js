@@ -7,6 +7,6 @@ module.exports = function(pipelines) {
       glob('bootstrap.js')
     ),
     env([ debounce(500), concat('combined.js') ], 'production'),
-    write('dist/assets')
+    write('dist')
   ]
 }

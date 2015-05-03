@@ -1,2 +1,2 @@
 require('source-map-support').install()
-require('./dist/assets/combined.js')
+require('./dist/combined.js')
